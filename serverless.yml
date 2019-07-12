@@ -1,0 +1,13 @@
+service: serverless-s3-static
+
+provider:
+  name: aws
+  region: ap-northeast-2
+
+plugins:
+  - serverless-finch
+
+custom:
+  client:
+    bucketName: serverless-s3-static-ashnamuh
+    distributionFolder: public

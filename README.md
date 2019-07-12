@@ -8,7 +8,9 @@ Make sure serverless can access your aws.
 
 Follow [Serverless credentials guide](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
 
-Note: Make sure `bucketName` in `serverless.yml` unique.
+You can modify region, bucketName in `serverless.yml`.
+
+**Note**: Make sure `bucketName` in `serverless.yml` unique.
 
 ``` bash
 # deploy

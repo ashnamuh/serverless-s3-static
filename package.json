@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ashnamuh/serverless-s3-static/issues"
   },
-  "homepage": "https://github.com/ashnamuh/serverless-s3-static#readme"
+  "homepage": "https://github.com/ashnamuh/serverless-s3-static#readme",
+  "devDependencies": {
+    "serverless": "^1.47.0",
+    "serverless-finch": "^2.4.2"
+  }
 }
